@@ -86,11 +86,14 @@ def click(x, text):
 
 
 def winner():
-    if 1 in p1_lst and 2 in p1_lst and 3 in p1_lst:
+
+def winner():
+    if 1 in p1_lst and 2 in p1_lst and 3 in p1_lst or 4 in p1_lst and 5 in p1_lst and 6 in p1_lst or 7 in p1_lst and 8 in p1_lst and 9 in p1_lst or 1 in p1_lst and 4 in p1_lst and 7 in p1_lst or 2 in p1_lst and 5 in p1_lst and 8 in p1_lst or 3 in p1_lst and 6 in p1_lst and 9 in p1_lst or 1 in p1_lst and 5 in p1_lst and 9 in p1_lst or 3 in p1_lst and 5 in p1_lst and 7 in p1_lst:
         messagebox.showinfo(title="Congratulations", message="Player 1 is the winner")
 
-    if 1 in p2_lst and 2 in p2_lst and 3 in p2_lst:
+    if 1 in p2_lst and 2 in p2_lst and 3 in p2_lst or 4 in p2_lst and 5 in p2_lst and 6 in p2_lst or 7 in p2_lst and 8 in p2_lst and 9 in p2_lst or 1 in p2_lst and 4 in p2_lst and 7 in p2_lst or 2 in p2_lst and 5 in p2_lst and 8 in p2_lst or 3 in p2_lst and 6 in p2_lst and 9 in p2_lst or 1 in p2_lst and 5 in p2_lst and 9 in p2_lst or 3 in p2_lst and 5 in p2_lst and 7 in p2_lst:
         messagebox.showinfo(title="Congratulations", message="Player 2 is the winner")
+
 
 
 root.mainloop()
